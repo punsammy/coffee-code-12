@@ -49,3 +49,10 @@ document.body.innerHTML = result.join('<br>')
 
 
 // Current Date
+// Today is:Friday. Current time is: 4 PM : 50 : 22
+
+let date = new Date();
+
+
+
+document.body.innerHTML = date.getDay();
